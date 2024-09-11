@@ -1,0 +1,134 @@
+/*body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.display {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    margin-bottom: 20px; 
+}
+
+input#out {
+    width: 80%;
+    text-align: center;
+    border: none;
+    background: none;
+    font-size: 4rem;
+}
+*/
+
+/* Set a colorful background for the entire page */
+body, html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(135deg, #8972eecc, #55a3a3); /* Gradient background */
+    font-family: Arial, sans-serif;
+    color: #fff; /* Default text color */
+}
+
+/* Center the container on the page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Style the app container */
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: rgba(11, 201, 106, 0.363); /* Semi-transparent background */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the display block */
+.display {
+    width: 100px;
+    height: 100px;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text inside the display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* Style the input inside the display */
+input#out {
+    width: 80%;
+    text-align: center;
+    border: none;
+    background: none;
+    font-size: 4rem;
+    color: inherit; /* Inherit color from parent */
+}
+
+/* Style the buttons */
+button {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6b6b; /* Bright red background */
+    color: white; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Different colors for each button */
+button:nth-child(1) { /* First button */
+    background-color: #1dd1a1; /* Green background */
+}
+
+button:nth-child(2) { /* Second button */
+    background-color: #54a0ff; /* Blue background */
+}
+
+button:nth-child(3) { /* Third button */
+    background-color: #ff9f43; /* Orange background */
+}
+
+/* Hover effects for buttons */
+button:hover {
+    background-color: #f368e0; /* Change to pink on hover */
+}
+
+/* Add a footer with a subtle effect */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 0 0 15px 15px;
+}
